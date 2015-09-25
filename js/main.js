@@ -7,6 +7,12 @@ $('.close').on('click', function(e){
 });
 
 $('.submit').on('click', function(e){
-	$('.input').addClass('error');
+	$('input').addClass('error');
 	
 });
+
+$('input').on('click', function(e){
+	$(this).removeClass('error');
+});
+
+$('modal').
